@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PPS.Business\PPS.Business.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\upload\images\etbalik.jpg" />
+    <None Include="wwwroot\upload\images\genelgida.jpg" />
+    <None Include="wwwroot\upload\images\meyvesebze.jpg" />
+    <None Include="wwwroot\upload\images\noimage.jpg" />
+  </ItemGroup>
+
+</Project>

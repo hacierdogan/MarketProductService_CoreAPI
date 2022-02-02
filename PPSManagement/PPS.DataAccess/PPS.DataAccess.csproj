@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211122084434_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122084434_createDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20211122094753_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122094753_createDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20211122095323_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122095323_createDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20211122095801_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122095801_createDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20211122100919_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122100919_createDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20211122101853_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122101853_createDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20211122103220_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122103220_createDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20211122110046_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122110046_createDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20211122111350_createDatabase.cs" />
+    <Compile Remove="Migrations\20211122111350_createDatabase.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PPS.Entities\PPS.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
